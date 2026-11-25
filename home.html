@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEAVEN'S KEK - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <img src="mylogo.png" alt="Heaven's Kek Logo"
+                 style="width:100px;height:100px;object-fit:contain;">
+
+            <div>
+                <h1>HEAVEN'S KEK</h1>
+                <p>Bakery &amp; Pastries</p>
+            </div>
+        </div>
+
+        <!-- NAVIGATION -->
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="cart.html">Add to Cart</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+
+    <!-- CAKE VIDEO -->
+    <section class="cake-video">
+        <h2>Our Delicious Cakes</h2>
+        <p>Sweet moments begin with Heaven's Kek!</p>
+
+        <video controls loop>
+            <source src="myvideo.mp4" type="video/mp4">
+            Your browser does not support this video.
+        </video>
+    </section>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Freshly Baked With Love</h2>
+            <p>Delicious cakes, breads, cupcakes, and donuts
+               made fresh every day.</p>
+
+            <a href="cart.html" class="button">Shop Now</a>
+            <a href="#welcomeBox" class="button">Welcome Message</a>
+        </div>
+    </section>
+
+    <!-- SPECIAL OFFERS -->
+    <section class="extra-section" id="offers">
+        <h2>Special Offers</h2>
+        <p>Sweet treats, sweet prices!</p>
+        <p>Ask us about our latest bakery promotions.</p>
+    </section>
+
+    <!-- SEARCH FORM -->
+    <section class="search-section">
+        <h2>Search Our Products</h2>
+
+        <form action="cart.html" method="get">
+            <input type="search" name="search"
+                   placeholder="Search cakes, bread, donuts..."
+                   aria-label="Search products">
+            <button type="submit" class="button">Search</button>
+        </form>
+    </section>
+
+    <!-- FEATURED CAKES -->
+    <section class="products" id="products">
+        <h2>Our Best Sellers</h2>
+
+        <div class="product-card">
+            <img src="chocolate.jpg" alt="Chocolate Cake"
+                 width="200" height="200">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and delicious chocolate cake.</p>
+            <h4>₱200</h4>
+            <a href="cart.html" class="button">Add to Cart</a>
+        </div>
+
+        <div class="product-card">
+            <img src="bread.jpg" alt="Fresh Bread"
+                 width="200" height="200">
+            <h3>Fresh Bread</h3>
+            <p>Soft and freshly baked bread.</p>
+            <h4>₱100</h4>
+            <a href="cart.html" class="button">Add to Cart</a>
+        </div>
+
+        <div class="product-card">
+            <img src="vanillacupcake.jpg" alt="Vanilla Cupcake"
+                 width="200" height="200">
+            <h3>Vanilla Cupcake</h3>
+            <p>Sweet vanilla cupcake with frosting.</p>
+            <h4>₱100</h4>
+            <a href="cart.html" class="button">Add to Cart</a>
+        </div>
+
+        <div class="product-card">
+            <img src="donutchocolate.jpeg" alt="Chocolate Donut"
+                 width="200" height="200">
+            <h3>Chocolate Donut</h3>
+            <p>Soft donut covered with chocolate.</p>
+            <h4>₱100</h4>
+            <a href="cart.html" class="button">Add to Cart</a>
+        </div>
+    </section>
+
+    <!-- CUSTOMER COMMENTS -->
+    <section class="comments">
+        <h2>Leave a Comment</h2>
+
+        <form action="#" method="get">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="comment">Your Comment</label>
+            <textarea id="comment" name="comment" rows="5"
+                      placeholder="Write your comment here..."
+                      required></textarea>
+
+            <button type="submit" class="button">Submit Comment</button>
+        </form>
+    </section>
+ <!-- CUSTOMER REVIEWS -->
+    <section class="extra-section" id="reviews">
+        <h2>Customer Reviews</h2>
+
+        <div class="review-card">
+            <p class="stars">★★★★★</p>
+            <p>"The best ang sarap ng KEK!"</p>
+            <strong>- Shemmylang </strong>
+        </div>
+
+        <div class="review-card">
+            <p class="stars">★★★★★</p>
+            <p>"Ang sarap ng KEK!"</p>
+            <strong>- Gonzales Love is Blind </strong>
+        </div>
+    </section>
+    <!-- CONTACT US -->
+    <section class="extra-section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions about our cakes?</p>
+        <p>Email: Sadangalvin16@gmail.com.com</p>
+        <p>Phone: 09997-516-8764</p>
+        <p>Replace these sample details with your actual contact information.</p>
+    </section>
+
+    <!-- CSS-ONLY DIALOG BOX -->
+    <div id="welcomeBox" class="dialog-overlay">
+        <div class="dialog-content">
+            <h2>Welcome to HEAVEN'S KEK!</h2>
+            <p>Thank you for visiting our bakery!</p>
+            <p>Enjoy our delicious cakes and pastries.</p>
+            <a href="#top" class="button">Close</a>
+        </div>
+    </div>
+
+    <!-- BACK TO TOP -->
+    <div class="back-top">
+        <a href="#top" class="button">↑ Back to Top</a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>2026 HEAVEN'S KEK Sweet Bites Bakery</p>
+        <p>Fresh * Delicious * Affordable</p>
+        <p>
+            <a href="#contact">Contact Us</a> |
+            <a href="#reviews">Customer Reviews</a> |
+            <a href="#top">Back to Top</a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
